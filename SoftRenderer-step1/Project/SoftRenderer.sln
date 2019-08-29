@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SoftRendererPlayer", "Source\Player\SoftRendererPlayer.vcxproj", "{6595A285-3D79-397F-940C-5C342C083B1C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{BEBB5728-7B92-3268-8D62-F5052A83142F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6595A285-3D79-397F-940C-5C342C083B1C} = {6595A285-3D79-397F-940C-5C342C083B1C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6595A285-3D79-397F-940C-5C342C083B1C}.Debug|x64.ActiveCfg = Debug|x64
+		{6595A285-3D79-397F-940C-5C342C083B1C}.Debug|x64.Build.0 = Debug|x64
+		{6595A285-3D79-397F-940C-5C342C083B1C}.Release|x64.ActiveCfg = Release|x64
+		{6595A285-3D79-397F-940C-5C342C083B1C}.Release|x64.Build.0 = Release|x64
+		{BEBB5728-7B92-3268-8D62-F5052A83142F}.Debug|x64.ActiveCfg = Debug|x64
+		{BEBB5728-7B92-3268-8D62-F5052A83142F}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D76BEE2-4E73-38A0-B016-835007243C53}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
